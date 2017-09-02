@@ -1,0 +1,43 @@
+main {
+	width: 100%;
+	margin: 80px auto 50px auto;
+	font-family: cambria;
+	font-size: 16px;
+}
+
+#mainAuth {
+	
+	background-color: rgba(0,255,255,.3);
+	width: 100%;
+	text-align: center;
+
+
+}
+._formAuth {
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+	margin:auto;
+	width: 70%;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	background-color: rgba(37,37,37,.4);
+}
+ ._userAuthentification {
+ 	width: 50%;
+ 	height: 35px;
+ 	border-radius: 3px;
+ 	margin-bottom: 15px;
+ 	padding-left: 10px;
+
+ }
+input[type="submit"] {
+ 	padding: 5px 20px;
+ 	border-radius: 2px;
+ 	cursor: pointer;
+ 	background-color: #0a7628;
+ 	border:none;
+ 	color: #FFF;
+ 	font-family: cambria;
+ }

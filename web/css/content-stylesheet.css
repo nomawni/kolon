@@ -1,0 +1,85 @@
+nav {
+	width: 18%;
+	height: 100%;
+}
+
+#menu {
+	position: relative;
+	display: flex;
+	justify-content:center;
+	align-items: stretch;
+	flex-direction: column;
+	box-shadow: 2px 0 2px #e0e0e0;
+	padding-top: 25px;
+}
+#menu li {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 2px;
+}
+
+#menu a {
+	position: absolute;
+	padding: 20px 25%;
+}
+
+#menu a:hover {
+	background-color: #eeeeee;
+}
+
+
+#wrapper {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#google_add {
+	width: 70%;
+	height: 150px;
+	background-color: rgba(25,25,25,.6);
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+main {
+	margin-top: 60px;
+	width: 80%;
+	padding-bottom: 25px;
+}
+
+main ul {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+li._courses {
+	width: 221px;
+	box-shadow: 0px 4px 8px 0 #eeeeee, 0 6px 20px 0 #eeeeee;
+}
+
+li._courses:hover {
+	box-shadow: 0px 8px 8px 0 #eeeeee, 0 10px 20px 0 #eeeeee;
+	background-color: rgba(0,0,0,.3);
+}
+
+li._courses a:hover {
+	color: #FFF
+
+}
+
+li img {
+	width: 100%;
+}
+
+._courses_links {
+	width: 100%;
+}
+
+._courses_links p {
+	padding: 10px;
+}

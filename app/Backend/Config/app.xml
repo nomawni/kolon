@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<definitions>
+
+	<define var="login" value="admin" ></define>
+ 	<define var="pass" value="mdp" ></define>
+ 	<define var="pattern" value="^/"> </define>
+ 	<define var="anonymous" value="true"> </define>
+ 	<define var="logout" value="true"> </define>
+ 	<define var="form">
+      <path login_path="/login"> </path>
+      <check check_path="/login_check"> </check> 
+ 	</define>
+
+</definitions>

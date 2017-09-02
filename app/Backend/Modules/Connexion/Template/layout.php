@@ -1,0 +1,1 @@
+<?php require_once __DIR__.'/../../../Templates/layout.php' ?>
