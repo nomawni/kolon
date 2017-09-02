@@ -7,16 +7,16 @@
         <link rel="stylesheet" type="text/css" href="/css/main.css">
         <link rel="stylesheet" type="text/css" href="/css/content-stylesheet.css">
     <title>
-      <?= isset($title) ? $title : 'Mon super site' ?> 
-          
+      <?= isset($title) ? $title : 'Mon super site' ?>
+
     </title>
-    
+
   </head>
-  
+
   <body>
     <div id="wrap">
       <header>
-       <h1 id="logo"> <a href="/" > <img src="/../images/logo.jpg"> </a> </h1> 
+       <h1 id="logo"> <a href="/" > <img src="/../images/logo.jpg"> </a> </h1>
        <h4 id="library"> <a href="library"> LIBRARY <span class="_arrow"> < </span></a> </h4>
        <form method="GET" action="search.php" role="search" data-search="courses" id="search">
        <label for="search"></label> <input type="search" name="search" placeholder="search for courses"/>
@@ -37,10 +37,10 @@
       </header>
 
       <div id="wrapper">
-      
-      <nav>
 
-     <ul id="menu">
+      <nav id="menu">
+
+     <ul>
 
 <li> <a href="/web"> Web development </a> </li>
 <li> <a href="/web"> Programming </a> </li>
@@ -64,9 +64,9 @@
 
      </div>
 
-       
+
        <ul>
-       <li class="_courses"> 
+       <li class="_courses">
 
        <a href="#" class="_courses_links">
        <img src="/images/html_prod.jpg"/>
@@ -76,7 +76,7 @@
        </a>
        </li>
 
-       <li class="_courses"> 
+       <li class="_courses">
 
        <a href="#" class="_courses_links">
        <img src="/images/php_prod.jpg"/>
@@ -108,7 +108,7 @@
         </main>
 
       </div>
-    
+
       <footer>
         <ul>
             <li> <a href=""> @Copyright </a> </li>

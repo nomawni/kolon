@@ -7,16 +7,16 @@
         <link rel="stylesheet" type="text/css" href="/css/main.css">
 
     <title>
-      <?= isset($title) ? $title : 'Mon super site' ?> 
-          
+      <?= isset($title) ? $title : 'Mon super site' ?>
+
     </title>
-    
+
   </head>
-  
+
   <body>
     <div id="wrap">
       <header>
-       <h1 id="logo"> <a href="/" > <img src="/../images/logo.jpg"> </a> </h1> 
+       <h1 id="logo"> <a href="/" > <img src="/../images/logo.jpg"> </a> </h1>
        <h4 id="library"> <a href="library"> LIBRARY <span class="_arrow"> < </span></a> </h4>
        <form method="GET" action="search.php" role="search" data-search="courses" id="search">
        <label for="search"></label> <input type="search" name="search" placeholder="search for courses"/>
@@ -37,7 +37,7 @@
       </header>
 
       <div id="wrapper">
-      
+
       <nav>
 
      <?= isset($menu) ? $menu : ' ' ?>
@@ -51,9 +51,10 @@
         </main>
 
       </div>
-    
+
       <footer>
         <ul>
+            <li> <a href=""> @Copyright </a> </li>
             <li> <a href=""> @Copyright </a> </li>
             <li> <a href=""> @Copyright </a> </li>
             <li> <a href=""> @Copyright </a> </li>
