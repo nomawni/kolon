@@ -2,7 +2,7 @@
 <routes>
 	<route url="/admin/" module="Connexion" action="index" />
 	<route url="/admin/checkLogin/" module="Connexion" action="checkLogin" />
-	<route url="/admin/register/" module="Connexion" action="registration"/>
+	<route url="/admin/register/" module="Connexion" action="insertUser"/>
 	<route url="/admin/logout/" module="Connexion" action="logout" />
 	<route url="/admin/news-insert\.html" module="News" action="insert" />
 	 <route url="/admin/news-update-([0-9]+)\.html" module="News" action="update" vars="id" />

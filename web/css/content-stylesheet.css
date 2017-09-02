@@ -1,16 +1,19 @@
 nav {
+	margin-top: 20px;
 	width: 18%;
+	left: 0px;
 	height: 100%;
 }
 
 #menu {
-	position: relative;
+	width: 18%;
 	display: flex;
 	justify-content:center;
 	align-items: stretch;
 	flex-direction: column;
 	box-shadow: 2px 0 2px #e0e0e0;
 	padding-top: 25px;
+
 }
 #menu li {
 	padding-top: 20px;
@@ -19,14 +22,12 @@ nav {
 }
 
 #menu a {
-	position: absolute;
-	padding-top: 20px
-	padding-bottom: 20px;
-	padding-left: 25%;
+	padding: 20px 25%;
 }
 
-#menu a:hover {
-	background-color: #eeeeee; 
+#menu li:hover {
+background-color: #eeeeee;
+width: 100%;
 }
 
 
